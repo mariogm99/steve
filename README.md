@@ -1,2 +1,1 @@
-# steve
-Steve app - whoop smart routines
+# Steve Project
