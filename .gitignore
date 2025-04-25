@@ -1,0 +1,3 @@
+.env # ignore the main file
+*.env.* # catches .env.dev, .env.prod, etc.
+.envrc # direnv users
