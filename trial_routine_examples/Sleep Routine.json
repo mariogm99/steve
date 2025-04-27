@@ -1,0 +1,215 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {
+          "habit": "Morning sunlight (10-15 min within 60 min of wake)",
+          "time": "09:00"
+        },
+        {
+          "habit": "30-min walk in daylight",
+          "time": "10:00"
+        },
+        {
+          "habit": "Limit blue-light exposure 1 h before bed",
+          "time": "21:37"
+        },
+        {
+          "habit": "10-min evening meditation or breath-work",
+          "time": "21:30"
+        },
+        {
+          "habit": "No caffeine within 10 h of avg_sleep",
+          "time": "12:37"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    }
+  ]
+}

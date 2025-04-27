@@ -1,0 +1,103 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Zone-2 jog",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Dance workout",
+        "intensity": "mixed",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Zone-2 cycle",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Functional Fitness",
+        "intensity": "mixed",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Zone-2 jog",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Dance workout",
+        "intensity": "mixed",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        "Complete a 5-minute morning dynamic warm-up.",
+        "Increase daily step count by at least 2,000 steps.",
+        "Drink an additional 500 ml of water."
+      ],
+      "fitness_session": {
+        "type": "Zone-2 cycle",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "intensity": "high",
+        "duration_min": 30,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "Functional Fitness",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "intensity": "high",
+        "duration_min": 30,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "mixed",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "17:00"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {
+          "habit": "Zone–2 walk/jog 20 min",
+          "time": "06:15",
+          "why": "Builds aerobic base"
+        },
+        {
+          "habit": "Stairs over lifts",
+          "time": "08:00",
+          "why": "Incidental NEAT"
+        },
+        {
+          "habit": "Post‑meal stroll",
+          "time": "12:30",
+          "why": "Improves glucose handling"
+        },
+        {
+          "habit": "Dynamic warm‑up 5 min",
+          "time": "18:00",
+          "why": "Primes movement"
+        },
+        {
+          "habit": "Proper cooldown",
+          "time": "19:30",
+          "why": "Enhances parasympathetic rebound"
+        }
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "intensity": "high",
+        "duration_min": 30,
+        "start_time": "17:00"
+      }
+    }
+  ]
+}

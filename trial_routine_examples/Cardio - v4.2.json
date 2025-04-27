@@ -1,0 +1,95 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"},
+        {"habit": "Hydrate 500 ml water 30 min pre‑workout", "time": "17:00"},
+        {"habit": "Dynamic warm‑up", "time": "17:50"}
+      ],
+      "fitness_session": {
+        "type": "Mixed cardio session",
+        "intensity": "moderate",
+        "duration_min": 50,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"}
+      ],
+      "fitness_session": {
+        "type": "Zone‑2 run",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"},
+        {"habit": "Hydrate 500 ml water 30 min pre‑workout", "time": "17:00"},
+        {"habit": "Dynamic warm‑up", "time": "17:50"}
+      ],
+      "fitness_session": {
+        "type": "Mixed cardio session",
+        "intensity": "moderate",
+        "duration_min": 50,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"}
+      ],
+      "fitness_session": {
+        "type": "Zone‑2 run",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"},
+        {"habit": "Hydrate 500 ml water 30 min pre‑workout", "time": "17:00"},
+        {"habit": "Dynamic warm‑up", "time": "17:50"}
+      ],
+      "fitness_session": {
+        "type": "Mixed cardio session",
+        "intensity": "moderate",
+        "duration_min": 50,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"}
+      ],
+      "fitness_session": {
+        "type": "Zone‑2 run",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {"habit": "Low‑intensity walk (15 min) after meals", "time": "06:00"}
+      ],
+      "fitness_session": {
+        "type": "Zone‑2 run",
+        "intensity": "light",
+        "duration_min": 30,
+        "start_time": "18:00"
+      }
+    }
+  ]
+}

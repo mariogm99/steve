@@ -51,6 +51,10 @@ from authlib.integrations.requests_client import OAuth2Session
 AUTH_URL = "https://api-7.whoop.com"
 REQUEST_URL = "https://api.prod.whoop.com/developer"
 
+# WHOOP API client credentials
+CLIENT_ID = "42d417ba-39ba-47fe-8f31-cbf4f1072b0d"  # This is a placeholder, replace with your actual client ID
+CLIENT_SECRET = "82335d3886b8ede314eef61b4a2d981473a2c95744dc01d7dab775b87cd570b0"  # Replace with your actual client secret
+
 
 def _auth_password_json(_client, _method, uri, headers, body):
     body = json.dumps(dict(extract_params(body)))
@@ -474,16 +478,32 @@ class WhoopClient:
         Args:
             kwargs (dict[str, Any], optional): Additional arguments for `fetch_token()`.
         """
-        self.session.fetch_token(
-            url=f"{AUTH_URL}/oauth/token",
-            username=self._username,
-            password=self._password,
-            grant_type="password",
-            **kwargs,
-        )
-
-        if not self.user_id:
-            self.user_id = str(self.session.token.get("user", {}).get("id", ""))
+        try:
+            # Clear any existing token
+            self.session.token = None
+            
+            # Fetch new token
+            token = self.session.fetch_token(
+                url=f"{AUTH_URL}/oauth/token",
+                username=self._username,
+                password=self._password,
+                grant_type="password",
+                client_id=CLIENT_ID,
+                client_secret=CLIENT_SECRET,
+                **kwargs,
+            )
+            
+            # Ensure token is properly formatted
+            if token:
+                token["token_type"] = "Bearer"
+                # Store the token in the session
+                self.session.token = token
+            
+            if not self.user_id:
+                self.user_id = str(self.session.token.get("user", {}).get("id", ""))
+        except Exception as e:
+            print(f"Authentication error: {str(e)}")
+            raise
 
     def is_authenticated(self) -> bool:
         """Check if the OAuth2Session is authenticated.
@@ -520,15 +540,26 @@ class WhoopClient:
     def _make_request(
         self, method: str, url_slug: str, **kwargs: Any
     ) -> dict[str, Any]:
-        response = self.session.request(
-            method=method,
-            url=f"{REQUEST_URL}/{url_slug}",
-            **kwargs,
-        )
+        try:
+            # Ensure token is properly formatted
+            if self.session.token:
+                self.session.token["token_type"] = "Bearer"
+                # Ensure Authorization header is properly set
+                self.session.headers.update({
+                    "Authorization": f"Bearer {self.session.token.get('access_token')}"
+                })
+            
+            response = self.session.request(
+                method=method,
+                url=f"{REQUEST_URL}/{url_slug}",
+                **kwargs,
+            )
 
-        response.raise_for_status()
-
-        return response.json()
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"Request error: {str(e)}")
+            raise
 
     def _format_dates(
         self, start_date: str | None, end_date: str | None

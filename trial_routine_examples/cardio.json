@@ -1,0 +1,93 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "05:45"},
+        {"habit": "500 ml water + electrolytes", "time": "05:50"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ],
+      "fitness_session": {
+        "name": "Mixed cardio workout (Dance + Functional Fitness)",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "05:45"},
+        {"habit": "500 ml water + electrolytes", "time": "05:50"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "05:45"},
+        {"habit": "500 ml water + electrolytes", "time": "05:50"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ],
+      "fitness_session": {
+        "name": "Mixed cardio workout (Walking + Functional Fitness)",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "05:45"},
+        {"habit": "500 ml water + electrolytes", "time": "05:50"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ]
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "05:45"},
+        {"habit": "500 ml water + electrolytes", "time": "05:50"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ],
+      "fitness_session": {
+        "name": "Mixed cardio workout (Dance + Functional Fitness)",
+        "intensity": "moderate",
+        "duration_min": 45,
+        "start_time": "18:00"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "06:15"},
+        {"habit": "500 ml water + electrolytes", "time": "06:20"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ]
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {"habit": "Morning sunlight", "time": "06:15"},
+        {"habit": "500 ml water + electrolytes", "time": "06:20"},
+        {"habit": "No caffeine after 14:00"},
+        {"habit": "10-min guided evening meditation", "time": "21:30"},
+        {"habit": "Limit blue light 1 h before sleep"}
+      ]
+    }
+  ]
+}

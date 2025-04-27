@@ -1,0 +1,101 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"},
+        {"habit": "Sauna session (15-20 min)", "time": "18:50"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"},
+        {"habit": "Ice bath / cold plunge (2-3× week)", "time": "18:50"},
+        {"habit": "Sauna session (15-20 min)", "time": "18:50"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"},
+        {"habit": "Ice bath / cold plunge (2-3× week)", "time": "18:50"},
+        {"habit": "Sauna session (15-20 min)", "time": "18:50"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {"habit": "5-min morning mobility routine", "time": "10:05"},
+        {"habit": "Evening foam-rolling (10 min)", "time": "22:10"},
+        {"habit": "Post-workout protein within 30 min", "time": "19:35"}
+      ],
+      "fitness_session": {
+        "type": "Dance",
+        "duration_min": 30,
+        "start_time": "19:05"
+      }
+    }
+  ]
+}

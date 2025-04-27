@@ -1,3 +1,4 @@
 .env # ignore the main file
 
 .env
+config.json

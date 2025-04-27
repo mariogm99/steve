@@ -1,0 +1,96 @@
+{
+  "week_title": "Your Next Week Routine",
+  "daily_plan": [
+    {
+      "day": "Monday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Zone-2",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Zone-2",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "LSD",
+        "duration_min": 75,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Thursday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Tempo/Interval",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Friday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Zone-2",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Saturday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Zone-2",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    },
+    {
+      "day": "Sunday",
+      "checklist": [
+        {"habit": "Track steps – 10 000+ daily target", "time": "06:00"},
+        {"habit": "10-min dynamic warm-up before exercise", "time": "18:55"},
+        {"habit": "Post-workout stretch (10 min)", "time": "19:50"}
+      ],
+      "fitness_session": {
+        "type": "Zone-2",
+        "duration_min": 45,
+        "start_time": "19:05"
+      }
+    }
+  ]
+}
