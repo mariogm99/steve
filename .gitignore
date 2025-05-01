@@ -1,4 +1,41 @@
-.env # ignore the main file
-
+# Environment & Config
 .env
+*.env
 config.json
+.tokens/
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Data & Outputs
+*.csv
+*.json
+routine_output.json
+clean_daily.csv
+clean_workout.csv
+user_goal.json
+
+# Notebooks
+*.ipynb_checkpoints
+
+# Logs & Reports
+*.log
+*.txt
+*.out
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code or PyCharm settings (if applicable)
+.vscode/
+.idea/
