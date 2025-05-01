@@ -145,8 +145,8 @@ def main(argv: list[str] | None = None):
         "avg_wake": args.avg_wake,      # type: ignore
     }
 
-    os.makedirs("clean_whoop", exist_ok=True)
-    with open("clean_whoop/user_goal.json", "w", encoding="utf-8") as f:
+    os.makedirs("user_1_clean", exist_ok=True)
+    with open("user_1_clean/user_goal.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print("Data saved to user_goal.json")
 

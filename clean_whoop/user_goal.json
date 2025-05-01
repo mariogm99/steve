@@ -1,8 +1,8 @@
 {
-  "macro_goal": "recovery",
-  "frequency": 5,
+  "macro_goal": "sleep",
+  "frequency": 6,
   "exercise_type": "mixed",
-  "fasting": true,
-  "avg_sleep": "23:00",
-  "avg_wake": "10:00"
+  "fasting": false,
+  "avg_sleep": "23:50",
+  "avg_wake": "07:35"
 }
