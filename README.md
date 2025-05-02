@@ -97,7 +97,11 @@ Creates `user_goal.json` with fields like:
 
 ### 6. Generate Routine via GPT
 ```bash
-python generate_routine.py
+python generate_routine.py \
+  --profile clean_whoop/user_goal.json \
+  --daily   clean_whoop/clean_daily.csv \
+  --workout clean_whoop/clean_workout.csv \
+  --out     routine_output.json
 ```
 
 This uses OpenAI's GPT API to create a personalized 7-day routine and saves it to `routine_output.json`.
