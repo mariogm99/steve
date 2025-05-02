@@ -12,14 +12,13 @@ The result is a structured, JSON-formatted weekly plan that is delivered to a we
 
 ---
 
-## 🧠 Core Features
+## Core Features
 
-- 🔗 **WHOOP API Integration** – Authenticates user and pulls workout, sleep, and recovery data.
-- 🧹 **Data Cleaning & Summarization** – Processes and aggregates time-series data into key metrics.
-- 🎯 **Macro-Goal Selection** – User selects goal (e.g., "sleep", "recovery", or "cardio") via CLI or form.
-- 🤖 **GPT-4 Routine Generation** – Builds weekly checklist of habits and fitness sessions based on personalized prompt.
-- 💻 **Web App Interface** – Visualizes the routine, tracks daily habit completion, and exports adherence reports.
-- 🔁 **Weekly Routine Cycle** – Designed to support continuous feedback, re-evaluation, and adaptive habit routines.
+-  **WHOOP API Integration** – Authenticates user and pulls workout, sleep, and recovery data.
+-  **Data Cleaning & Summarization** – Processes and aggregates time-series data into key metrics.
+-  **Macro-Goal Selection** – User selects goal (e.g., "sleep", "recovery", or "cardio") via CLI or form.
+-  **GPT-4 Routine Generation** – Builds weekly checklist of habits and fitness sessions based on personalized prompt.
+-  **Web App Interface** – Visualizes the routine, tracks daily habit completion, and exports adherence reports.
 
 ---
 
@@ -27,6 +26,7 @@ The result is a structured, JSON-formatted weekly plan that is delivered to a we
 
 ```bash
 .
+├── onetime.py                  # Run once to setup user authentication for Whoop API access
 ├── fetch_whoop_data.py         # Pulls WHOOP data using access token
 ├── whoop_clean_pipeline.ipynb  # Cleans and summarizes biometric data
 ├── macro_goal_cli.py           # CLI for capturing user macro goal + habits
@@ -35,12 +35,15 @@ The result is a structured, JSON-formatted weekly plan that is delivered to a we
 ├── clean_daily.csv             # Cleaned daily biometric data
 ├── clean_workout.csv           # Cleaned workout log
 ├── user_goal.json              # User-defined profile
+├── frontend/                   # React-based frontend interface (hosted via Vercel)
+│   ├── [UI code & components]
+│   └── ...
 └── .tokens/                    # Stores WHOOP access & refresh tokens securely
 ```
 
 ---
 
-## ✅ Usage
+## Usage
 
 > ⚠️ **Note**: You must have a WHOOP Developer API client ID and secret. Currently supports single-user workflows.
 
@@ -108,17 +111,32 @@ This uses OpenAI's GPT API to create a personalized 7-day routine and saves it t
 
 ---
 
-## 🔮 Next Steps (Planned Features)
+## Frontend UI
 
-- 🔁 Weekly feedback loop using GPT for routine evaluation
-- 📅 Calendar view for better habit visualization
-- 📲 Mobile app version (React Native)
-- 🔔 Habit reminders and check-in notifications
-- 🧠 Behavioral feedback learning: adapt habits based on user input and bio-data
+The frontend is hosted separately (e.g. via Vercel) and allows users to:
+
+https://v0-weekly-habit-tracker-report.vercel.app/
+
+- Upload `routine_output.json`
+- View and check off daily habits
+- Download weekly adherence reports
+- Visual progress tracking
+
+Repo for frontend lives under `frontend/` or can be decoupled into a standalone app.
 
 ---
 
-## 🤖 Technologies
+## 🔮 Next Steps (Planned Features)
+
+-  Weekly feedback loop using GPT for routine evaluation
+-  Calendar view for better habit visualization
+-  Mobile app version (React Native)
+-  Habit reminders and check-in notifications
+-  Behavioral feedback learning: adapt habits based on user input and bio-data
+
+---
+
+## Technologies
 
 - Python (data pipeline & OpenAI integration)
 - OpenAI GPT-4
